@@ -1,0 +1,21 @@
+{
+  "name": "discover",
+  "version": "1.0.0",
+  "description": "Projeto para auxiliar a todas(os/es) que tenham dúvidas a respeito das Normas Técnicas Brasileiras para tabalhos acadêmicos (ABNT 10520/02 & 6023/02 atualizadas em 2018) ",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "init-db": "node src/db/init.js"
+  },
+  "keywords": [],
+  "author": "Palo GL",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "sqlite": "^4.0.25",
+    "sqlite3": "^5.0.2",
+    "src": "^1.1.2"
+  }
+}

@@ -1,0 +1,76 @@
+.content {
+  margin: auto;
+}
+
+header {
+  margin-bottom: -60rem;
+  align-items: center;
+}
+
+#bg {
+  display: flex;
+  margin: 0 0 4.5rem 4.5rem;
+  width: auto;
+
+  color: var(--black);
+  font-size: 1.3rem;
+  font-weight: 700;
+
+  text-align: center;
+ 
+}
+
+main {
+  display: flex;
+  margin: -2rem 0 4.5rem 4.5rem;  
+}
+
+main .container {
+  width: min(36.3rem, 95%);
+}
+
+main h2 {
+  font-family: 'Poppins', sans-serif;
+  color: var(--black);
+  font-size: clamp(20px 5vh 2.8rem);
+  margin-bottom: 2.1rem;
+
+  text-align: center;
+}
+
+input {
+  border: .15rem solid var(--gray-blue);
+  padding: 0 1.6rem;
+
+}
+
+input, button, .button {
+  width: 100%;
+  margin-bottom: 1.4rem;
+
+  font-size: .65rem;
+  text-align: center;
+}
+
+.separator{
+  display: flex;
+  align-items: center;
+
+  margin: 2rem 0;
+}
+
+.separator div:nth-child(2){
+  color: var(--gray-blue);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  padding: 0 1.35rem;
+  line-height: 0;
+}
+
+.separator div:nth-child(1),
+.separator div:nth-child(3){
+  background: var(--gray-blue);
+  width: 100%;
+  height: 1px;
+}
+
